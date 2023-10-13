@@ -1,24 +1,24 @@
 import ItemCount from "../ItemCount/ItemCount";
 
-function ItemDetail ({id, name, image, category, description, price, stock}) {
+function ItemDetail ({id, image, title, price, category, stock}) {
 
  
     return (
         <article className="CardItem">
             <header className="Header">
                 <h2 className="ItemHeader">
-                    {name}
+                    {title}
                 </h2>
             </header>
             <picture>
-                <img src={image} alt={name} className="ItemImg"/>
+                <img src={image} alt={title} className="ItemImg"/>
             </picture>
             <section>
                 <p className="Info">
                     Categoria: {category}
                 </p>
                 <p className="Info">
-                    Descricion: {description}
+                    Descricion: 
                 </p>
                 <p className="Info">
                     Precio: ${price}

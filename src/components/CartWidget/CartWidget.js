@@ -1,11 +1,16 @@
-import cart from "./assets/cart.svg";
+import {BsCart2} from "react-icons/bs"
+import "../../input.css"
 
 function CartWidget (){
 
     return (
-        <div>
-            <img src={cart} alt="cart-widget"/>
+        <div className="flex" >
+            <div className="text-3xl mr-5">
+           <BsCart2/>
+            </div>
+           <div className="text-xl">
             0
+           </div>
         </div>
     )
 }

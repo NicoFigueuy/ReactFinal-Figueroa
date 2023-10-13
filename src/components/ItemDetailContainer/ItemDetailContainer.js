@@ -8,6 +8,7 @@ import { useParams } from "react-router-dom";
 function ItemDetailContainer () {
 
     const [product, setProduct] = useState(null);
+  
 
     const { itemId } = useParams();
     console.log("El item iD QUE llega es: ", itemId);
@@ -21,11 +22,13 @@ function ItemDetailContainer () {
         })
     }
     ,[itemId])
+    console.log('itemId', itemId)
+   console.log('product', product)
 
     return(
         <div className="ItemDetailContainer">
-
-            <ItemDetail {...product}/>
+               
+            <ItemDetail  {...product}/>
         </div>
     )
 

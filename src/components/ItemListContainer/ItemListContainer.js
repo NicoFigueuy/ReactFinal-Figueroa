@@ -31,8 +31,8 @@ function ItemListContainer ({greeting}){
 
 
     return(
-        <div className="mt-5 has-text-weight-bold has-text-centered is-size-2">
-            <h1>{greeting}</h1>
+        <div className="text-center ">
+            <h1 className="m-10 font-semibold text-3xl">{greeting}</h1>
             <ItemList products={products}/>
         </div>
     )
