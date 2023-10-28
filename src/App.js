@@ -4,18 +4,21 @@ import "./input.css"; //Cuando importo una hoja de estilos, no hace falta guarda
 //import ItemCount from "./components/ItemCount/ItemCount.js";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { CartProvider } from "./context/CartContext.js";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <CartProvider>
         <NavBar/>
         <Routes>
           <Route path="/" element={<ItemListContainer greeting={'Bienvenidos'}/>}/>
           <Route path="/category/:categoryId" element={<ItemListContainer />}/>
           <Route path="/item/:itemId" element={ <ItemDetailContainer/> }/>
           <Route path="*" element={<h1>404 NOT FOUND</h1>}/>
-        </Routes>      
+        </Routes>   
+        </CartProvider>   
       </BrowserRouter>     
 
     </div>

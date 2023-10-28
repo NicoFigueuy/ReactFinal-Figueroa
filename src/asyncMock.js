@@ -31,7 +31,8 @@ const lista_productos = [
         "title": "Hamburguesa 'la cocina'",
         "price": 300,
         "category": "hamburguesa",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Carne a la parrilla, lechuga fresca, tomate maduro, cebolla crujiente, salsa especial, pan de sésamo." 
     },
     {
         "id": 2,
@@ -39,7 +40,8 @@ const lista_productos = [
         "title": "Hamburguesa 'Special'",
         "price": 250,
         "category": "hamburguesa",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Carne a la parrilla, bacon crujiente, cebolla caramelizada, queso cheddar fundido, salsa barbacoa ahumada, pan de sésamo." 
     },
     {
         "id": 3,
@@ -47,7 +49,8 @@ const lista_productos = [
         "title": "Hamburguesa 'Robusta'",
         "price": 350,
         "category": "hamburguesa",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Hongo Portobello a la parrilla, espinacas salteadas, pimientos asados, cebolla morada, queso de cabra, bollo integral." 
     },
     {
         "id": 4,
@@ -55,7 +58,8 @@ const lista_productos = [
         "title": "Hamburguesa 'Imbatible'",
         "price": 400,
         "category": "hamburguesa",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Carne a la parrilla, guacamole casero, jalapeños en rodajas, pimientos asados, queso pepper jack, salsa de chipotle, pan de sésamo." 
     },
     {
         "id": 5,
@@ -63,7 +67,8 @@ const lista_productos = [
         "title": "Hamburguesa 'Delicius'",
         "price": 450,
         "category": "hamburguesa",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Carne de res a la parrilla, bacon crujiente, huevo frito, cebolla caramelizada, lechuga fresca, queso cheddar fundido, salsa barbacoa y mayonesa especial, pan de sésamo" 
     },
     {
         "id": 6,
@@ -71,7 +76,8 @@ const lista_productos = [
         "title": "Pizza Muzzarela",
         "price": 300,
         "category": "pizza",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Salsa de tomate, mozzarella, orégano." 
     },
     {
         "id": 7,
@@ -79,7 +85,8 @@ const lista_productos = [
         "title": "Pizza Cuatro quesos",
         "price": 350,
         "category": "pizza",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Mozzarella, gorgonzola, parmesano, queso de cabra." 
     },
     {
         "id": 8,
@@ -87,7 +94,8 @@ const lista_productos = [
         "title": "Pizza Pepperoni",
         "price": 370,
         "category": "pizza",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Salsa de tomate, mozzarella, pepperoni." 
     },
     {
         "id": 9,
@@ -95,7 +103,8 @@ const lista_productos = [
         "title": "Pizza Margherita",
         "price": 360,
         "category": "pizza",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Salsa de tomate, mozzarella, albahaca, aceite de oliva." 
     },
     {
         "id": 10,
@@ -103,7 +112,8 @@ const lista_productos = [
         "title": "Pizza Marinara",
         "price": 320,
         "category": "pizza",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Salsa de tomate, ajo, aceite de oliva, orégano." 
     },
     {
         "id": 11,
@@ -111,7 +121,8 @@ const lista_productos = [
         "title": "Empanada capresse",
         "price": 110,
         "category": "empanadas",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Tomate maduro, mozzarella fresca, hojas de albahaca." 
     },
     {
         "id": 12,
@@ -119,7 +130,8 @@ const lista_productos = [
         "title": "Empanada calabresa",
         "price": 110,
         "category": "empanadas",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Salchichas calabresas, cebolla, pimiento rojo, queso y especias." 
     },
     {
         "id": 13,
@@ -127,7 +139,8 @@ const lista_productos = [
         "title": "Empanada Napolitana",
         "price": 110,
         "category": "empanadas",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Tomate, mozzarella, albahaca, aceitunas negras." 
     },
     {
         "id": 14,
@@ -135,7 +148,8 @@ const lista_productos = [
         "title": "Empanada Arabe",
         "price": 110,
         "category": "empanadas",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Carne de cordero o res, comino, pimentón, cebolla, perejil." 
     },
     {
         "id": 15,
@@ -143,7 +157,8 @@ const lista_productos = [
         "title": "Empanada Tucumana",
         "price": 110,
         "category": "empanadas",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Carne de res, cebolla, huevo duro, aceitunas verdes, comino, papas." 
     },
     {
         "id": 16,
@@ -151,7 +166,8 @@ const lista_productos = [
         "title": "Cafe corto",
         "price": 30,
         "category": "cafe",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Un intenso y concentrado shot de café, perfecto para los amantes del sabor fuerte y rápido." 
     },
     {
         "id": 17,
@@ -159,7 +175,8 @@ const lista_productos = [
         "title": "Cafe Largo",
         "price": 50,
         "category": "cafe",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Una taza generosa, con más agua, para disfrutar de un café más suave y aromático." 
     },
     {
         "id": 19,
@@ -167,7 +184,8 @@ const lista_productos = [
         "title": "Cafe Cappuccino",
         "price": 80,
         "category": "cafe",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Una obra maestra de espresso, leche vaporizada y espuma cremosa, un equilibrio perfecto entre intensidad y suavidad." 
     },
     {
         "id": 21,
@@ -175,7 +193,8 @@ const lista_productos = [
         "title": "Media Lunas",
         "price": 50,
         "category": "medialunas",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"La media luna, con su exterior dorado y crujiente y su interior suave y mantecoso, es un placer para los sentidos. Ideal para cualquier momento del día" 
     },
     {
         "id": 22,
@@ -183,7 +202,8 @@ const lista_productos = [
         "title": "Bebidas: Coca Cola",
         "price": 180,
         "category": "bebidas",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"La icónica refrescante y efervescente cola con un sabor único y reconocible en todo el mundo." 
     },
     {
         "id": 23,
@@ -191,7 +211,8 @@ const lista_productos = [
         "title": "Bebidas: Sprite",
         "price": 180,
         "category": "bebidas",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Una bebida refrescante y burbujeante con un toque de limón-lima, perfecta para saciar la sed." 
     },
     {
         "id": 24,
@@ -199,7 +220,8 @@ const lista_productos = [
         "title": "Bebidas: Pomelo",
         "price": 180,
         "category": "bebidas",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"Una bebida refrescante de pomelo con un sabor cítrico y chispeante que te transporta a la frescura de la naturaleza." 
     },
     {
         "id": 25,
@@ -207,7 +229,8 @@ const lista_productos = [
         "title": "Bebidas: Patricia",
         "price": 180,
         "category": "bebidas",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"La cerveza uruguaya de tradición, con un sabor suave y refrescante que acompaña los momentos especiales." 
     },
     {
         "id": 26,
@@ -215,7 +238,8 @@ const lista_productos = [
         "title": "Bebidas: Pilsen 0",
         "price": 180,
         "category": "bebidas",
-        "stock": 20
+        "stock": 20,
+        "descripcion":"La opción sin alcohol de la cerveza Pilsen, con el mismo sabor auténtico pero sin el contenido de alcohol. Ideal para disfrutar sin restricciones." 
     }
 ]
 
@@ -240,7 +264,7 @@ const lista_productos = [
     return new Promise((resolve,reject) => {
         setTimeout(() => {
             const product = lista_productos.find((prod)=>
-            prod.id === idProduct)
+            prod.id == idProduct)
             if(product) {
                 
                 resolve(product);
