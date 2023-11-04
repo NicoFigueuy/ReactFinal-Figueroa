@@ -6,17 +6,15 @@ import { Link } from "react-router-dom";
 
 
 function CartWidget (){
-const {totalQuantity}=useContext(CartContext)
+const {cart}=useContext(CartContext)
     return (
-        <div className="flex" >
-            <Link to="/cart" style={{display:totalQuantity> 0 ? "block" : "none"}} >
-                ´{totalQuantity}
-           
+        <div  >
+            <Link to="/cart" className="flex">
             <div className="text-3xl mr-5">
            <BsCart2/>
             </div>
            <div className="text-xl">
-            0
+           {cart.length}
            </div>
             </Link>
         </div>

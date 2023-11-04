@@ -2,12 +2,12 @@ import Item from "../Item/Item";
 import "../../input.css"
 
 
-function ItemList ({products}){
+function ItemList ({productos}){
 
-    console.log(products);
+    console.log(productos);
     return (
-        <div className="bg-gray-200 grid grid-cols-3 gap-8 ">
-            {products.map(prod => <Item key={prod.id} {...prod}/>)}
+        <div className="grid grid-cols-3 gap-8 ml-10 mr-10  mt-16">
+            {productos.map(prod => <Item key={prod.id} {...prod}/>)}
         </div>
     )
 

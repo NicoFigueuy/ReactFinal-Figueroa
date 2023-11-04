@@ -1,8 +1,8 @@
 import ItemCount from "../ItemCount/ItemCount";
 import "../../input.css";
 import {useContext, useState } from "react";
-import {Link} from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
+import {Link} from "react-router-dom";
 
 function ItemDetail ({id, image, title, price, category, stock, descripcion}) {
 
@@ -16,7 +16,9 @@ function ItemDetail ({id, image, title, price, category, stock, descripcion}) {
         const item = {
           id,
           title,
-          price
+          price,
+          image
+          
         };
         addItem(item, quantity);
       };
@@ -36,21 +38,31 @@ function ItemDetail ({id, image, title, price, category, stock, descripcion}) {
             
             </picture>
             <section className="text-2xl font-semibold">
-                <p className="Info">
-                    Categoria: {category}
-                </p>
-                <p className="Info">
-                    Descripcion: {descripcion}
-                </p>
-                <p className="Info">
+               <h3>
+                   Ingredientes:
+                   <p>{descripcion}</p> 
+                </h3>
+
+                <p className="mt-5">
                     Precio: ${price}
                 </p>
             </section>
             </div>
-            <footer>
+            <footer className=" flex flex-col ml-16 w-3/12 ">
                 {
                     quantityAdded > 0 ? (
-                        <Link to= '/cart'>Terminar compra</Link>
+                        <>
+                        <div className="flex justify-center">
+                        <Link to= '/cart' className="bg-green-300 hover:bg-green-400 rounded-md  mb-5  w-48 text-center">
+                            Terminar compra
+                            </Link>
+                        </div>
+                        <div className="flex justify-center">
+                            <Link to= "/" className="bg-green-300 hover:bg-green-400 rounded-md mb-5 w-48  text-center ">
+                                Productos
+                                </Link>
+                        </div>
+                        </>
                     ):(
                         <ItemCount initial={1} stock={stock} onAdd={ handleOnAdd }/>
                     )

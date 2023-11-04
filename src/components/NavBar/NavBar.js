@@ -19,10 +19,10 @@ function NavBar (){
             <div>
                 <div className="flex justify-around text-2xl ">
                     <div className="hover:bg-rose-600 duration-200 rounded" >
-                        <NavLink to={`/category/hamburguesa`} className={({isActive}) => isActive ? 'underline ' : 'Option'}> Hamburguesa</NavLink>
+                        <NavLink to={`/category/hamburguesa`} className={({isActive}) => isActive ? 'underline ' : 'Option'}> Hamburguesas</NavLink>
                     </div>
                     <div className="hover:bg-rose-600 duration-200 rounded" >
-                        <NavLink to={`/category/pizza `} className={({isActive}) => isActive ? 'underline' : 'Option'}>Pizza</NavLink>
+                        <NavLink to={`/category/pizza `} className={({isActive}) => isActive ? 'underline' : 'Option'}>Pizzas</NavLink>
                     </div> 
                     <div className="hover:bg-rose-600 duration-200 rounded" >
                         <NavLink to={`/category/empanadas`} className={({isActive}) => isActive ? 'underline' : 'Option'}>Empanadas</NavLink>
